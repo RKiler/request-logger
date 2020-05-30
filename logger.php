@@ -10,4 +10,4 @@ $data = array(
   )
 );
 
-file_put_contents('bp_web_trace.log', date("U").':'.base64_encode(json_encode($data))."\n",FILE_APPEND   );
+file_put_contents('bp.log', date("U").':'.base64_encode(json_encode($data))."\n",FILE_APPEND   );
